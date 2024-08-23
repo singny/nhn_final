@@ -1,0 +1,7 @@
+2024-08-23 19:38:32 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\favicon.ico
+2024-08-23 19:38:39 [pool-1-thread-4] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\favicon.ico
+2024-08-23 19:38:41 [pool-1-thread-6] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\b_com_root\favicon.ico
+2024-08-23 19:39:11 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-23 19:39:33 [pool-1-thread-9] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\etc\passwd
+2024-08-23 19:40:56 [pool-1-thread-12] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\test\403_html
+2024-08-23 21:21:38 [pool-1-thread-14] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\a_com_root

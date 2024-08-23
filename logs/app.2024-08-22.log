@@ -1,0 +1,52 @@
+2024-08-22 00:19:11 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NoSuchMethodException: full.service.Hello.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3784)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2955)
+	at full.server.RequestProcessor.run(RequestProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-22 00:19:11 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-22 00:19:13 [pool-1-thread-2] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NoSuchMethodException: full.service.Hello.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3784)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2955)
+	at full.server.RequestProcessor.run(RequestProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-22 00:19:13 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-22 00:22:27 [pool-1-thread-1] INFO  full.service.Hello - Complete Response: {}java.io.OutputStreamWriter@16c289fa
+2024-08-22 00:23:36 [pool-1-thread-1] INFO  full.service.Hello - Complete Response: {Content-Type=text/plain}java.io.OutputStreamWriter@469a8eff
+2024-08-22 00:28:02 [pool-1-thread-1] INFO  full.service.Hello - Complete Response: {}java.io.OutputStreamWriter@469a8eff
+2024-08-22 00:32:53 [pool-1-thread-1] INFO  full.service.Hello - Complete Response: {}
+2024-08-22 00:51:04 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /Hello.exe
+2024-08-22 13:41:12 [pool-1-thread-2] ERROR full.server.RequestProcessor - Servlet class not found: full.service.favicon.ico
+java.lang.ClassNotFoundException: full.service.favicon.ico
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-22 13:41:12 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\favicon.ico
+2024-08-22 13:41:18 [pool-1-thread-3] ERROR full.server.RequestProcessor - Error processing servlet: full.service.CurrentTime
+java.lang.NullPointerException: Cannot invoke "java.io.PrintWriter.println(String)" because "this.writer" is null
+	at full.service.CurrentTime.service(CurrentTime.java:27)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-22 13:41:18 [pool-1-thread-3] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\CurrentTime

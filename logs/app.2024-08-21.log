@@ -1,0 +1,1297 @@
+2024-08-21 10:53:41 [pool-1-thread-1] INFO  full.server.RequestProcessor - Request received: GET / HTTP/1.1
+2024-08-21 10:53:41 [pool-1-thread-2] INFO  full.server.RequestProcessor - Request received: GET /favicon.ico HTTP/1.1
+2024-08-21 10:53:41 [pool-1-thread-2] WARN  full.server.RequestProcessor - Requested file not found: C:\Users\separk2111\eclipse-workspace\was-application-server\src\main\resources\a_com_root\favicon.ico
+2024-08-21 10:53:49 [pool-1-thread-3] INFO  full.server.RequestProcessor - Request received: GET / HTTP/1.1
+2024-08-21 10:53:49 [pool-1-thread-4] INFO  full.server.RequestProcessor - Request received: GET /favicon.ico HTTP/1.1
+2024-08-21 10:53:49 [pool-1-thread-4] WARN  full.server.RequestProcessor - Requested file not found: C:\Users\separk2111\eclipse-workspace\was-application-server\src\main\resources\a_com_root\favicon.ico
+2024-08-21 10:53:52 [pool-1-thread-5] INFO  full.server.RequestProcessor - Request received: GET / HTTP/1.1
+2024-08-21 10:53:52 [pool-1-thread-6] INFO  full.server.RequestProcessor - Request received: GET /favicon.ico HTTP/1.1
+2024-08-21 10:53:52 [pool-1-thread-6] WARN  full.server.RequestProcessor - Requested file not found: C:\Users\separk2111\eclipse-workspace\was-application-server\src\main\resources\b_com_root\favicon.ico
+2024-08-21 14:20:24 [pool-1-thread-2] INFO  full.server.RequestProcessor - ㅇㅇㅇㅇ
+2024-08-21 14:20:24 [pool-1-thread-1] INFO  full.server.RequestProcessor - ㅇㅇㅇㅇ
+2024-08-21 14:20:56 [pool-1-thread-1] INFO  full.server.RequestProcessor - ㅇㅇㅇㅇ
+2024-08-21 14:22:11 [pool-1-thread-1] INFO  full.server.RequestProcessor - ㅇㅇㅇㅇ
+2024-08-21 14:22:15 [pool-1-thread-2] INFO  full.server.RequestProcessor - ㅇㅇㅇㅇ
+2024-08-21 14:23:29 [pool-1-thread-1] INFO  full.server.RequestProcessor - ㅇㅇㅇㅇ
+2024-08-21 14:23:30 [pool-1-thread-2] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1108)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1095)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436)
+	at full.server.HttpRequestImpl.<init>(HttpRequestImpl.java:18)
+	at full.server.RequestProcessor.run(RequestProcessor.java:34)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 14:24:40 [pool-1-thread-1] INFO  full.server.RequestProcessor - ㅇㅇㅇㅇ
+2024-08-21 14:28:55 [pool-1-thread-1] INFO  full.server.RequestProcessor - localhost:9090
+2024-08-21 14:28:56 [pool-1-thread-2] INFO  full.server.RequestProcessor - localhost:9090
+2024-08-21 14:29:01 [pool-1-thread-3] INFO  full.server.RequestProcessor - localhost:9090
+2024-08-21 14:29:04 [pool-1-thread-4] INFO  full.server.RequestProcessor - localhost:9090
+2024-08-21 14:29:05 [pool-1-thread-5] INFO  full.server.RequestProcessor - localhost:9090
+2024-08-21 14:29:10 [pool-1-thread-6] INFO  full.server.RequestProcessor - localhost:9090
+2024-08-21 14:29:14 [pool-1-thread-7] INFO  full.server.RequestProcessor - a.com:9090
+2024-08-21 14:29:16 [pool-1-thread-8] INFO  full.server.RequestProcessor - a.com:9090
+2024-08-21 14:29:21 [pool-1-thread-9] INFO  full.server.RequestProcessor - a.com:9090
+2024-08-21 14:29:51 [pool-1-thread-10] INFO  full.server.RequestProcessor - a.com:9090
+2024-08-21 14:30:51 [pool-1-thread-12] INFO  full.server.RequestProcessor - a.com:9090
+2024-08-21 14:35:35 [pool-1-thread-1] INFO  full.server.RequestProcessor - C:\Users\separk2111\eclipse-workspace\was-application-server\src\main\resources\a_com_root
+2024-08-21 14:36:46 [pool-1-thread-1] INFO  full.server.RequestProcessor - /test/test_403.html
+2024-08-21 14:47:07 [pool-1-thread-1] INFO  full.server.RequestProcessor - 읽을수 있음 ?true
+2024-08-21 14:47:36 [pool-1-thread-2] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:47:36 [pool-1-thread-2] ERROR full.server.RequestProcessor - Servlet class not found: test.html
+java.lang.ClassNotFoundException: full.servlets.test.html
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 14:47:37 [pool-1-thread-3] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:47:37 [pool-1-thread-3] ERROR full.server.RequestProcessor - Servlet class not found: test.html
+java.lang.ClassNotFoundException: full.servlets.test.html
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 14:47:42 [pool-1-thread-4] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:47:42 [pool-1-thread-4] ERROR full.server.RequestProcessor - Servlet class not found: test.html
+java.lang.ClassNotFoundException: full.servlets.test.html
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 14:48:12 [pool-1-thread-5] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:48:12 [pool-1-thread-5] ERROR full.server.RequestProcessor - Servlet class not found: test.html
+java.lang.ClassNotFoundException: full.servlets.test.html
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 14:48:25 [pool-1-thread-6] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:48:25 [pool-1-thread-6] ERROR full.server.RequestProcessor - Servlet class not found: test.html
+java.lang.ClassNotFoundException: full.servlets.test.html
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 14:49:51 [pool-1-thread-8] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:49:51 [pool-1-thread-8] ERROR full.server.RequestProcessor - Servlet class not found: main
+java.lang.ClassNotFoundException: full.servlets.main
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 14:49:52 [pool-1-thread-9] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:49:52 [pool-1-thread-9] ERROR full.server.RequestProcessor - Servlet class not found: main
+java.lang.ClassNotFoundException: full.servlets.main
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 14:50:15 [pool-1-thread-10] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:50:15 [pool-1-thread-10] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\1234.cex
+2024-08-21 14:50:17 [pool-1-thread-11] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:50:17 [pool-1-thread-11] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\1234.cex
+2024-08-21 14:50:19 [pool-1-thread-12] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:50:19 [pool-1-thread-12] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:50:21 [pool-1-thread-13] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:50:21 [pool-1-thread-13] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:50:26 [pool-1-thread-14] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:50:26 [pool-1-thread-14] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:50:56 [pool-1-thread-15] INFO  full.server.RequestProcessor - 읽을수 있음 ?false
+2024-08-21 14:50:56 [pool-1-thread-15] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:51:33 [pool-1-thread-1] INFO  full.server.RequestProcessor - /1234.exe
+2024-08-21 14:51:33 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:51:34 [pool-1-thread-2] INFO  full.server.RequestProcessor - /1234.exe
+2024-08-21 14:51:34 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:51:39 [pool-1-thread-3] INFO  full.server.RequestProcessor - /1234.exe
+2024-08-21 14:51:39 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:52:09 [pool-1-thread-4] INFO  full.server.RequestProcessor - /1234.exe
+2024-08-21 14:52:09 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:52:45 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:52:45 [pool-1-thread-1] INFO  full.server.RequestProcessor - src/main/resources/error_pages/403.html
+2024-08-21 14:54:11 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:54:11 [pool-1-thread-1] INFO  full.server.RequestProcessor - src/main/resources/error_pages/403.html
+2024-08-21 14:55:11 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:55:11 [pool-1-thread-3] INFO  full.server.RequestProcessor - src/main/resources/error_pages/403.html
+2024-08-21 14:55:23 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:55:23 [pool-1-thread-4] INFO  full.server.RequestProcessor - src/main/resources/error_pages/403.html
+2024-08-21 14:57:27 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:57:27 [pool-1-thread-1] INFO  full.server.RequestProcessor - [B@28517e6b
+2024-08-21 14:58:33 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:33 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:33 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:34 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:34 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:34 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:35 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:35 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:35 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:35 [pool-1-thread-10] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:35 [pool-1-thread-11] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:35 [pool-1-thread-12] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:35 [pool-1-thread-13] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:35 [pool-1-thread-14] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:36 [pool-1-thread-15] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:36 [pool-1-thread-16] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:36 [pool-1-thread-17] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:41 [pool-1-thread-18] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:41 [pool-1-thread-19] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:58:41 [pool-1-thread-20] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:59:11 [pool-1-thread-21] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:59:11 [pool-1-thread-22] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:59:11 [pool-1-thread-23] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 14:59:59 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:00 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:00 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:01 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:01 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:01 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:02 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:02 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:03 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:08 [pool-1-thread-10] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:00:38 [pool-1-thread-11] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:01:38 [pool-1-thread-13] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:40:06 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:40:06 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - 들어옴
+2024-08-21 15:40:42 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:40:42 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - java.io.OutputStreamWriter@12af1944
+2024-08-21 15:40:43 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:40:43 [pool-1-thread-2] INFO  full.server.HttpResponseImpl - java.io.OutputStreamWriter@338d759f
+2024-08-21 15:40:48 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:40:48 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - java.io.OutputStreamWriter@7a6dcddb
+2024-08-21 15:41:18 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:41:18 [pool-1-thread-4] INFO  full.server.HttpResponseImpl - java.io.OutputStreamWriter@4cc9368c
+2024-08-21 15:41:44 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:41:44 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - java.io.OutputStreamWriter@48d557fb
+2024-08-21 15:42:44 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 15:42:44 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - java.io.OutputStreamWriter@2e7e39a
+2024-08-21 16:01:40 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:01:41 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:01:41 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:01:42 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:01:42 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:41 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:42 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:42 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:43 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:43 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:43 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:43 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:43 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:19:43 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:24:43 [pool-1-thread-12] WARN  full.server.RequestProcessor - Forbidden request: /1234.exe
+2024-08-21 16:30:45 [pool-1-thread-2] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1108)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1095)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160)
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436)
+	at full.server.HttpRequestImpl.<init>(HttpRequestImpl.java:18)
+	at full.server.RequestProcessor.run(RequestProcessor.java:32)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 16:31:35 [pool-1-thread-19] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:31:35 [pool-1-thread-19] INFO  full.server.RequestProcessor - 108
+2024-08-21 16:31:36 [pool-1-thread-20] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:31:36 [pool-1-thread-20] INFO  full.server.RequestProcessor - 108
+2024-08-21 16:31:41 [pool-1-thread-21] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:31:41 [pool-1-thread-21] INFO  full.server.RequestProcessor - 108
+2024-08-21 16:36:18 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:18 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:18 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:19 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:19 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:19 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:24 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:24 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:24 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:55 [pool-1-thread-10] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:55 [pool-1-thread-11] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:36:55 [pool-1-thread-12] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:37:29 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:37:30 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:37:35 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:38:03 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:38:04 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:38:04 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:38:05 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:38:35 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:38:35 [pool-1-thread-1] ERROR full.server.RequestProcessor - Servlet class not found: test.exe
+java.lang.ClassNotFoundException: full.servlets.test.exe
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 16:45:22 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:45:22 [pool-1-thread-1] INFO  full.server.RequestProcessor - <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:45:52 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:45:52 [pool-1-thread-2] INFO  full.server.RequestProcessor - <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:17 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:17 [pool-1-thread-1] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:18 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:18 [pool-1-thread-2] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:18 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:18 [pool-1-thread-3] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:18 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:18 [pool-1-thread-4] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:18 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:18 [pool-1-thread-5] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:19 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:19 [pool-1-thread-6] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:20 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:20 [pool-1-thread-7] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:20 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:20 [pool-1-thread-8] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:20 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:20 [pool-1-thread-9] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:20 [pool-1-thread-10] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:20 [pool-1-thread-10] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:21 [pool-1-thread-11] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:21 [pool-1-thread-11] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:21 [pool-1-thread-12] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:21 [pool-1-thread-12] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:21 [pool-1-thread-13] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:21 [pool-1-thread-13] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:48:21 [pool-1-thread-14] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:48:21 [pool-1-thread-14] INFO  full.server.RequestProcessor - <h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:49:21 [pool-1-thread-16] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:49:21 [pool-1-thread-16] INFO  full.server.RequestProcessor - <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<h1>잘못된 접근입니다.</h1>
+
+2024-08-21 16:50:56 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:50:56 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - java.io.OutputStreamWriter@2ef4af7b
+2024-08-21 16:56:53 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:56:53 [pool-1-thread-1] INFO  full.server.RequestProcessor - <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>오류</title>
+</head>
+<body>
+    <h1>잘못된 접근입니다.</h1>
+</body>
+</html>
+2024-08-21 16:56:54 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:56:54 [pool-1-thread-2] INFO  full.server.RequestProcessor - <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>오류</title>
+</head>
+<body>
+    <h1>잘못된 접근입니다.</h1>
+</body>
+</html>
+2024-08-21 16:56:59 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:56:59 [pool-1-thread-3] INFO  full.server.RequestProcessor - <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>오류</title>
+</head>
+<body>
+    <h1>잘못된 접근입니다.</h1>
+</body>
+</html>
+2024-08-21 16:57:29 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:57:29 [pool-1-thread-4] INFO  full.server.RequestProcessor - <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>오류</title>
+</head>
+<body>
+    <h1>잘못된 접근입니다.</h1>
+</body>
+</html>
+2024-08-21 16:57:55 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 16:57:55 [pool-1-thread-1] INFO  full.server.RequestProcessor - <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>오류</title>
+</head>
+<body>
+    <h1>잘못된 접근입니다.</h1>
+</body>
+</html>
+2024-08-21 16:57:55 [pool-1-thread-1] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:02:38 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:39 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:40 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:40 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:40 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:41 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:41 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:41 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:41 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:02:41 [pool-1-thread-10] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:03:32 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:03:32 [pool-1-thread-1] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:04:10 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:04:10 [pool-1-thread-1] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:04:11 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:04:11 [pool-1-thread-2] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:04:11 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:04:11 [pool-1-thread-3] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:04:11 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:04:11 [pool-1-thread-4] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:06:43 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:06:43 [pool-1-thread-1] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:06:43 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Response content: java.io.OutputStreamWriter@2bb81057
+2024-08-21 17:06:44 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:06:44 [pool-1-thread-2] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:06:44 [pool-1-thread-2] INFO  full.server.HttpResponseImpl - Response content: java.io.OutputStreamWriter@2e642441
+2024-08-21 17:06:46 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:06:46 [pool-1-thread-3] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:06:46 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - Response content: java.io.OutputStreamWriter@79e573f5
+2024-08-21 17:20:25 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:20:25 [pool-1-thread-1] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:20:26 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:20:26 [pool-1-thread-2] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:20:27 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:20:27 [pool-1-thread-3] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:20:27 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:20:27 [pool-1-thread-4] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:20:28 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:20:28 [pool-1-thread-5] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:20:29 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:20:29 [pool-1-thread-6] INFO  full.server.RequestProcessor - 247
+2024-08-21 17:21:18 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:21:19 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:21:19 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:21:19 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:21:19 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:21:19 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:21:20 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:21:20 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:22:21 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:22:21 [pool-1-thread-1] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:22:21 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:22:21 [pool-1-thread-2] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:22:22 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:22:22 [pool-1-thread-3] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:22:23 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:22:23 [pool-1-thread-4] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:23:23 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:23:23 [pool-1-thread-7] INFO  full.server.RequestProcessor - 37
+2024-08-21 17:23:44 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:23:45 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:23:46 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:23:46 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:23:47 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:24:23 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:24:24 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:24:25 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:24 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:26 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:27 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:28 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:28 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:28 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:28 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:33 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:36 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:28:36 [pool-1-thread-10] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:06 [pool-1-thread-11] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:17 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:17 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:17 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:18 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:18 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:18 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:19 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:19 [pool-1-thread-8] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:24 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:24 [pool-1-thread-10] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:24 [pool-1-thread-11] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:24 [pool-1-thread-12] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:54 [pool-1-thread-13] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:54 [pool-1-thread-14] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:29:54 [pool-1-thread-15] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:30:05 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:30:06 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:30:06 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:30:07 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:30:07 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:30:08 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:30:13 [pool-1-thread-7] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:32:58 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:32:59 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:32:59 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:33:29 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:33:53 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:33:54 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:33:55 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:33:55 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:33:56 [pool-1-thread-5] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:33:57 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:34:45 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:34:46 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:34:47 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:35:21 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:35:21 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Content-Length: 37
+
+2024-08-21 17:35:21 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:35:23 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:35:23 [pool-1-thread-2] INFO  full.server.HttpResponseImpl - Content-Length: 37
+
+2024-08-21 17:35:23 [pool-1-thread-2] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:36:21 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:36:21 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - Content-Length: 37
+
+2024-08-21 17:36:21 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:40:50 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:40:50 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:40:50 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:40:52 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:40:52 [pool-1-thread-2] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:40:52 [pool-1-thread-2] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:40:56 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:40:56 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:40:56 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:41:20 [pool-1-thread-6] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:41:20 [pool-1-thread-6] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:41:21 [pool-1-thread-7] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:41:21 [pool-1-thread-7] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:41:22 [pool-1-thread-8] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:41:22 [pool-1-thread-8] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:41:23 [pool-1-thread-9] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:41:23 [pool-1-thread-9] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:41:24 [pool-1-thread-10] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:41:24 [pool-1-thread-10] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:41:24 [pool-1-thread-11] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:41:24 [pool-1-thread-11] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:41:25 [pool-1-thread-12] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:41:25 [pool-1-thread-12] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:41:25 [pool-1-thread-13] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:41:25 [pool-1-thread-13] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:46:50 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:46:50 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:46:50 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:46:50 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Complete Response: {Content-Length=13, Content-Type=text/html}
+java.io.OutputStreamWriter@273b54fd
+2024-08-21 17:47:50 [pool-1-thread-3] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 17:47:50 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - Content-Length: 13
+
+2024-08-21 17:47:50 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - Content-Type: text/html
+
+2024-08-21 17:47:50 [pool-1-thread-3] INFO  full.server.HttpResponseImpl - Complete Response: {Content-Length=13, Content-Type=text/html}
+java.io.OutputStreamWriter@2e7e39a
+2024-08-21 20:25:54 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 20:25:54 [pool-1-thread-2] INFO  full.server.HttpResponseImpl - Complete Response: {Content-Length=13, Content-Type=text/html}
+java.io.OutputStreamWriter@56e969c
+2024-08-21 20:28:01 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 20:28:01 [pool-1-thread-1] INFO  full.server.RequestProcessor - <h1>403 Page</h1>
+2024-08-21 20:49:05 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 20:49:05 [pool-1-thread-1] INFO  full.server.HttpResponseImpl - Complete Response: {Content-Length=17, Content-Type=text/html}[60, 104, 49, 62, 52, 48, 51, 32, 80, 97, 103, 101, 60, 47, 104, 49, 62]
+2024-08-21 20:50:16 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 20:50:54 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 20:51:03 [pool-1-thread-2] ERROR full.server.RequestProcessor - Servlet class not found: test.html
+java.lang.ClassNotFoundException: full.servlets.test.html
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 20:53:04 [pool-1-thread-9] WARN  full.server.RequestProcessor - Forbidden request: /test.exe
+2024-08-21 20:55:07 [pool-1-thread-1] INFO  full.server.RequestProcessor - index.html
+2024-08-21 20:55:08 [pool-1-thread-2] INFO  full.server.RequestProcessor - index.html
+2024-08-21 20:55:13 [pool-1-thread-3] INFO  full.server.RequestProcessor - index.html
+2024-08-21 20:55:43 [pool-1-thread-4] INFO  full.server.RequestProcessor - index.html
+2024-08-21 20:56:10 [pool-1-thread-1] INFO  full.server.RequestProcessor - C:\web-application-server\src\main\resources\a_com_root\index.html
+2024-08-21 20:57:10 [pool-1-thread-3] INFO  full.server.RequestProcessor - C:\web-application-server\src\main\resources\a_com_root\index.html
+2024-08-21 20:57:58 [pool-1-thread-1] INFO  full.server.RequestProcessor - text/html
+2024-08-21 20:57:58 [pool-1-thread-1] INFO  full.server.RequestProcessor - Complete Response: [84, 104, 105, 115, 32, 105, 115, 32, 97, 46, 99, 111, 109]
+2024-08-21 20:57:59 [pool-1-thread-2] INFO  full.server.RequestProcessor - text/html
+2024-08-21 20:57:59 [pool-1-thread-2] INFO  full.server.RequestProcessor - Complete Response: [84, 104, 105, 115, 32, 105, 115, 32, 97, 46, 99, 111, 109]
+2024-08-21 20:59:05 [pool-1-thread-1] INFO  full.server.RequestProcessor - text/html
+2024-08-21 20:59:05 [pool-1-thread-1] INFO  full.server.RequestProcessor - This is a.com
+2024-08-21 21:01:32 [pool-1-thread-6] WARN  full.server.RequestProcessor - Forbidden request: /dkdk.exe
+2024-08-21 21:01:43 [pool-1-thread-7] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\test\test.html
+2024-08-21 21:09:11 [pool-1-thread-1] WARN  full.server.RequestProcessor - Forbidden request: /test/test_403.html
+2024-08-21 21:09:16 [pool-1-thread-2] WARN  full.server.RequestProcessor - Forbidden request: /test
+2024-08-21 21:09:22 [pool-1-thread-3] ERROR full.server.RequestProcessor - Servlet class not found: index.html
+java.lang.ClassNotFoundException: full.servlets.index.html
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:75)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 21:11:41 [pool-1-thread-1] INFO  full.server.RequestProcessor - /
+2024-08-21 21:11:50 [pool-1-thread-2] INFO  full.server.RequestProcessor - /index.html
+2024-08-21 21:11:50 [pool-1-thread-2] ERROR full.server.RequestProcessor - Servlet class not found: index.html
+java.lang.ClassNotFoundException: full.servlets.index.html
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:76)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 21:13:19 [pool-1-thread-4] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:13:19 [pool-1-thread-4] WARN  full.server.RequestProcessor - Forbidden request: /Hello
+2024-08-21 21:14:06 [pool-1-thread-1] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:14:06 [pool-1-thread-2] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:14:06 [pool-1-thread-3] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:14:07 [pool-1-thread-4] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:14:07 [pool-1-thread-6] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:14:12 [pool-1-thread-5] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:14:12 [pool-1-thread-7] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:14:12 [pool-1-thread-8] INFO  full.server.RequestProcessor - /Hello
+2024-08-21 21:15:43 [pool-1-thread-2] INFO  full.server.RequestProcessor - Hello
+2024-08-21 21:15:43 [pool-1-thread-3] INFO  full.server.RequestProcessor - Hello
+2024-08-21 21:15:44 [pool-1-thread-4] INFO  full.server.RequestProcessor - Hello
+2024-08-21 21:15:44 [pool-1-thread-5] INFO  full.server.RequestProcessor - Hello
+2024-08-21 21:26:34 [pool-1-thread-8] ERROR full.server.RequestProcessor - Servlet class not found: full.Hello
+java.lang.ClassNotFoundException: full.servlets.full.Hello
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 21:27:15 [pool-1-thread-12] ERROR full.server.RequestProcessor - Servlet class not found: sevlets.Hello
+java.lang.ClassNotFoundException: full.servlets.sevlets.Hello
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:05:52 [pool-1-thread-2] ERROR full.server.RequestProcessor - Servlet class not found: full.Hello
+java.lang.ClassNotFoundException: full.Hello
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:05:52 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:06:04 [pool-1-thread-3] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:06:05 [pool-1-thread-4] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:06:10 [pool-1-thread-5] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:06:40 [pool-1-thread-6] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:07:12 [pool-1-thread-1] INFO  full.server.RequestProcessor - full.service.Hello
+2024-08-21 22:07:12 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:08:12 [pool-1-thread-3] INFO  full.server.RequestProcessor - full.service.Hello
+2024-08-21 22:08:12 [pool-1-thread-3] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:08:24 [pool-1-thread-1] INFO  full.server.RequestProcessor - service.Hello
+2024-08-21 22:08:24 [pool-1-thread-1] ERROR full.server.RequestProcessor - Servlet class not found: service.Hello
+java.lang.ClassNotFoundException: service.Hello
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:08:24 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:08:29 [pool-1-thread-2] INFO  full.server.RequestProcessor - Hello
+2024-08-21 22:08:29 [pool-1-thread-2] ERROR full.server.RequestProcessor - Servlet class not found: Hello
+java.lang.ClassNotFoundException: Hello
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:08:29 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:08:36 [pool-1-thread-4] INFO  full.server.RequestProcessor - service.Hello
+2024-08-21 22:08:36 [pool-1-thread-4] ERROR full.server.RequestProcessor - Servlet class not found: service.Hello
+java.lang.ClassNotFoundException: service.Hello
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:413)
+	at java.base/java.lang.Class.forName(Class.java:404)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:08:36 [pool-1-thread-4] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:17:57 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:17:58 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\service.Hello
+2024-08-21 22:26:39 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:26:40 [pool-1-thread-2] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:26:41 [pool-1-thread-4] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:26:41 [pool-1-thread-4] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:26:46 [pool-1-thread-3] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:26:46 [pool-1-thread-3] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:27:16 [pool-1-thread-6] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:27:16 [pool-1-thread-6] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:27:34 [pool-1-thread-5] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:27:34 [pool-1-thread-5] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:27:34 [pool-1-thread-7] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:27:34 [pool-1-thread-7] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:34:15 [pool-1-thread-9] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:34:15 [pool-1-thread-9] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:34:34 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:34:34 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:35:34 [pool-1-thread-3] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:35:34 [pool-1-thread-3] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:36:06 [pool-1-thread-1] INFO  full.server.RequestProcessor - full.service.Hello
+2024-08-21 22:36:07 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:36:07 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:225)
+	at full.server.RequestProcessor.run(RequestProcessor.java:88)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:43:13 [pool-1-thread-1] INFO  full.service.Hello - 들어왔니
+2024-08-21 22:43:13 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:43:13 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:43:14 [pool-1-thread-2] INFO  full.service.Hello - 들어왔니
+2024-08-21 22:43:14 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:43:14 [pool-1-thread-2] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:43:19 [pool-1-thread-3] INFO  full.service.Hello - 들어왔니
+2024-08-21 22:43:19 [pool-1-thread-3] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:43:19 [pool-1-thread-3] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:43:49 [pool-1-thread-4] INFO  full.service.Hello - 들어왔니
+2024-08-21 22:43:49 [pool-1-thread-4] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:43:49 [pool-1-thread-4] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:44:49 [pool-1-thread-6] INFO  full.service.Hello - 들어왔니
+2024-08-21 22:44:49 [pool-1-thread-6] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:44:49 [pool-1-thread-6] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:224)
+	at full.server.RequestProcessor.run(RequestProcessor.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:50:41 [pool-1-thread-2] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 22:58:54 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.write(byte[])" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:46)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 22:58:54 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:00:04 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.write(byte[])" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:46)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:00:04 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:03:02 [pool-1-thread-1] INFO  full.service.Hello - Hello, world!
+2024-08-21 23:03:02 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.write(byte[])" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:45)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:03:02 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:06:17 [pool-1-thread-1] INFO  full.service.Hello - Hello, world!
+2024-08-21 23:06:17 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.write(byte[])" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:45)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:06:17 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:07:03 [pool-1-thread-1] INFO  full.service.Hello - Hello, world!
+2024-08-21 23:07:03 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.write(byte[])" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:45)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:07:03 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:11:22 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.flush()" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:51)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:11:22 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:225)
+	at full.server.RequestProcessor.run(RequestProcessor.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:11:23 [pool-1-thread-2] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.flush()" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:51)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:11:23 [pool-1-thread-2] ERROR full.server.RequestProcessor - Error processing request
+java.net.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819)
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1223)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1210)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at full.server.HttpResponseImpl.sendResponse(HttpResponseImpl.java:60)
+	at full.server.RequestProcessor.sendErrorPage(RequestProcessor.java:225)
+	at full.server.RequestProcessor.run(RequestProcessor.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:11:47 [pool-1-thread-1] INFO  full.service.Hello - Hello, world!
+2024-08-21 23:11:47 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.write(byte[])" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:45)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:11:47 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:41:06 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NoSuchMethodException: full.service.Hello.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3784)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2955)
+	at full.server.RequestProcessor.run(RequestProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:41:06 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:44:42 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NoSuchMethodException: full.service.Hello.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3784)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2955)
+	at full.server.RequestProcessor.run(RequestProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:44:42 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:45:30 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.write(byte[])" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:52)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:45:30 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:47:29 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NullPointerException: Cannot invoke "java.io.OutputStream.write(byte[])" because "this.outputStream" is null
+	at full.service.Hello.service(Hello.java:52)
+	at full.server.RequestProcessor.run(RequestProcessor.java:70)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:47:29 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:50:30 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NoSuchMethodException: full.service.Hello.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3784)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2955)
+	at full.server.RequestProcessor.run(RequestProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:50:30 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello
+2024-08-21 23:53:06 [pool-1-thread-1] ERROR full.server.RequestProcessor - Error processing servlet: full.service.Hello
+java.lang.NoSuchMethodException: full.service.Hello.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3784)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2955)
+	at full.server.RequestProcessor.run(RequestProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-08-21 23:53:06 [pool-1-thread-1] WARN  full.server.RequestProcessor - File not found or not readable: src\main\resources\a_com_root\Hello

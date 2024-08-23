@@ -1,0 +1,29 @@
+{
+  "port": 9090,
+  "hosts": {
+    "a.com": {
+      "rootDirectory": "src/main/resources/a_com_root",
+      "errorPages": {
+        "403": "src/main/resources/error_pages/403.html",
+        "404": "src/main/resources/error_pages/404.html",
+        "500": "src/main/resources/error_pages/500.html"
+      }
+    },
+    "b.com": {
+      "rootDirectory": "src/main/resources/b_com_root",
+      "errorPages": {
+        "403": "src/main/resources/error_pages/403.html",
+        "404": "src/main/resources/error_pages/404.html",
+        "500": "src/main/resources/error_pages/500.html"
+      }
+    },
+    "default": {
+      "rootDirectory": "src/main/resources/a_com_root",
+      "errorPages": {
+        "403": "src/main/resources/error_pages/403.html",
+        "404": "src/main/resources/error_pages/404.html",
+        "500": "src/main/resources/error_pages/500.html"
+      }
+    }
+  }
+}
